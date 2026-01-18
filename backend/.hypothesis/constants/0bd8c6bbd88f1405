@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\utils\sanitization.py
+# hypothesis_version: 6.148.8
+
+['\x00', '"', '<[^>]+>', '\\', '\\"', '\\\\', '\\n', '\\r', '\\s*on\\w+\\s*=', '\\t', 'applet', 'base', 'button', 'data\\s*:', 'embed', 'form', 'frame', 'frameset', 'iframe', 'ilayer', 'input', 'javascript\\s*:', 'layer', 'link', 'meta', 'object', 'script', 'select', 'style', 'textarea', 'vbscript\\s*:']

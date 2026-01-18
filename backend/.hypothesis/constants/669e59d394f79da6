@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\services\teacher_service.py
+# hypothesis_version: 6.148.8
+
+['DUPLICATE_EMAIL', 'TEACHER_NOT_FOUND', 'assigned_classes', 'class_teacher_of', 'classes_assigned', 'email', 'employee_id', 'has_next', 'has_previous', 'id', 'items', 'joining_date', 'page', 'page_size', 'profile_data', 'qualifications', 'status', 'subjects', 'teacher_id', 'total_count', 'total_pages', 'user']

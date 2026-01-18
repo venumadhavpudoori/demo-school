@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\models\exam.py
+# hypothesis_version: 6.148.8
+
+[200, 'CASCADE', 'Class', 'Exam', 'Grade', 'Student', 'Subject', 'annual', 'classes.id', 'dynamic', 'exam', 'exams', 'exams.id', 'final', 'grades', 'half_yearly', 'midterm', 'quarterly', 'students.id', 'subjects.id', 'unit_test']

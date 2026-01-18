@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\models\__init__.py
+# hypothesis_version: 6.148.8
+
+['Announcement', 'Attendance', 'AttendanceStatus', 'AuditAction', 'AuditLog', 'Base', 'Class', 'Exam', 'ExamType', 'Fee', 'FeeStatus', 'Gender', 'Grade', 'LeaveRequest', 'LeaveStatus', 'RequesterType', 'Section', 'Student', 'StudentStatus', 'Subject', 'TargetAudience', 'Teacher', 'TeacherStatus', 'Tenant', 'TenantAwareBase', 'TenantMixin', 'TimestampMixin', 'Timetable', 'User', 'UserRole']

@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\models\school.py
+# hypothesis_version: 6.148.8
+
+[100, 'Attendance', 'CASCADE', 'Class', 'Exam', 'Grade', 'SET NULL', 'Section', 'Student', 'Subject', 'Teacher', 'Teacher | None', 'Timetable', 'class_', 'class_teacher_of', 'classes', 'classes.id', 'dynamic', 'section', 'sections', 'subject', 'subjects', 'subjects_taught', 'teachers.id']

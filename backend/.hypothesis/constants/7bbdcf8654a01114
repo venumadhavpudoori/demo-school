@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\models\announcement.py
+# hypothesis_version: 6.148.8
+
+[255, 'SET NULL', 'User', 'User | None', 'admin', 'all', 'announcements', 'parent', 'student', 'teacher', 'users.id']

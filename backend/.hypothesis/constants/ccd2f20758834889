@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\models\leave_request.py
+# hypothesis_version: 6.148.8
+
+['CASCADE', 'SET NULL', 'User', 'User | None', 'approved', 'approved_leaves', 'cancelled', 'leave_requests', 'pending', 'rejected', 'student', 'teacher', 'users.id']

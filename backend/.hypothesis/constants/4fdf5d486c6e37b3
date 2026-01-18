@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\services\timetable_service.py
+# hypothesis_version: 6.148.8
+
+[300, 'CLASS_CONFLICT', 'Friday', 'Monday', 'Saturday', 'Sunday', 'TEACHER_CONFLICT', 'TIMETABLE_CONFLICT', 'TIMETABLE_NOT_FOUND', 'Thursday', 'Tuesday', 'Unknown', 'Wednesday', 'class_conflict', 'class_id', 'class_name', 'class_timetable', 'day_name', 'day_of_week', 'end_time', 'first_name', 'has_conflicts', 'has_next', 'has_previous', 'id', 'items', 'last_name', 'page', 'page_size', 'period_number', 'section_id', 'section_name', 'start_time', 'subject_code', 'subject_id', 'subject_name', 'teacher_conflict', 'teacher_id', 'teacher_name', 'teacher_timetable', 'total_count', 'total_pages']

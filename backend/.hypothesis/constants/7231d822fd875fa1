@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\models\tenant.py
+# hypothesis_version: 6.148.8
+
+[100, 255, 'User', 'active', 'basic', 'dynamic', 'enterprise', 'free', 'inactive', 'premium', 'standard', 'suspended', 'tenant', 'tenants', 'trial']

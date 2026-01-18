@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\repositories\__init__.py
+# hypothesis_version: 6.148.8
+
+['AuditLogRepository', 'ClassRepository', 'ExamRepository', 'FeeRepository', 'GradeRepository', 'PaginatedResult', 'SectionRepository', 'StudentRepository', 'SubjectRepository', 'TeacherRepository']

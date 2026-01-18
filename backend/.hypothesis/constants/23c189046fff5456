@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\services\exam_service.py
+# hypothesis_version: 6.148.8
+
+['EXAM_DATE_CONFLICT', 'EXAM_NOT_FOUND', 'INVALID_EXAM_DATA', 'academic_year', 'class_id', 'class_name', 'end_date', 'exam_type', 'has_next', 'has_previous', 'id', 'items', 'name', 'page', 'page_size', 'start_date', 'total_count', 'total_pages']

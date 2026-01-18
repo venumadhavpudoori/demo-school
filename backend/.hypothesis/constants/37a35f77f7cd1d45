@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\repositories\teacher.py
+# hypothesis_version: 6.148.8
+
+[100, 'academic_year', 'first_name', 'grade_level', 'id', 'is_class_teacher', 'last_name', 'name']

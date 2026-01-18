@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\utils\__init__.py
+# hypothesis_version: 6.148.8
+
+['Permission', 'PermissionChecker', 'PermissionDependency', 'escape_for_json', 'is_safe_url', 'permission_checker', 'require_permission', 'sanitize_dict', 'sanitize_html', 'sanitize_list', 'sanitize_string', 'sanitize_value', 'strip_tags']

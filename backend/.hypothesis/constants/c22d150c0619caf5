@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\repositories\grade.py
+# hypothesis_version: 6.148.8
+
+[0.0, 33.0, 100.0, 100, 'N/A', 'average_marks', 'average_percentage', 'fail_count', 'grade', 'grade_distribution', 'highest_marks', 'lowest_marks', 'marks_obtained', 'pass_count', 'pass_percentage', 'remarks', 'student_id', 'tenant_id', 'total_students']

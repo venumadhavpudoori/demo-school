@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\models\user.py
+# hypothesis_version: 6.148.8
+
+[255, 'Announcement', 'LeaveRequest', 'Student', 'Student | None', 'Teacher', 'Teacher | None', 'Tenant', 'admin', 'approver', 'author', 'dynamic', 'parent', 'requester', 'student', 'super_admin', 'teacher', 'user', 'users']

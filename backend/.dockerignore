@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Testing
+.pytest_cache/
+.hypothesis/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Misc
+.git/
+.gitignore
+*.md
+!README.md
+.env
+.env.*
+!.env.example
+
+# Ruff
+.ruff_cache/

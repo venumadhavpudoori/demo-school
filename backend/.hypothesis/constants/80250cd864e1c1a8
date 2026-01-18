@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\services\school_service.py
+# hypothesis_version: 6.148.8
+
+[300, 'CLASS_NOT_FOUND', 'DUPLICATE_CLASS_NAME', 'SECTION_NOT_FOUND', 'SUBJECT_NOT_FOUND', 'academic_year', 'admission_number', 'capacity', 'class', 'class_id', 'class_list', 'class_name', 'class_sections', 'class_subjects', 'class_teacher', 'class_teacher_id', 'code', 'created_at', 'credits', 'date_of_birth', 'email', 'employee_id', 'gender', 'grade_level', 'has_next', 'has_previous', 'id', 'items', 'name', 'page', 'page_size', 'profile_data', 'roll_number', 'section_id', 'status', 'students_count', 'teacher', 'teacher_id', 'total_count', 'total_pages', 'updated_at', 'user']

@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\models\student.py
+# hypothesis_version: 6.148.8
+
+['Attendance', 'CASCADE', 'Class', 'Class | None', 'Fee', 'Grade', 'SET NULL', 'Section', 'Section | None', 'User', 'active', 'classes.id', 'deleted', 'dynamic', 'female', 'graduated', 'inactive', 'male', 'other', 'sections.id', 'student', 'students', 'transferred', 'users.id']

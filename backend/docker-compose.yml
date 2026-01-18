@@ -1,0 +1,115 @@
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: school_erp_postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-school_erp}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-school_erp_password}
+      POSTGRES_DB: ${POSTGRES_DB:-school_erp}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-school_erp}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - backend_network
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: school_erp_redis
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - backend_network
+
+  # Backend API
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: school_erp_backend
+    environment:
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-school_erp}:${POSTGRES_PASSWORD:-school_erp_password}@postgres:5432/${POSTGRES_DB:-school_erp}
+      - REDIS_URL=redis://redis:6379/0
+      - SECRET_KEY=${SECRET_KEY:-your-super-secret-key-change-in-production}
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY:-jwt-secret-change-me}
+      - JWT_ALGORITHM=HS256
+      - ACCESS_TOKEN_EXPIRE_MINUTES=30
+      - REFRESH_TOKEN_EXPIRE_DAYS=7
+      - DEBUG=true
+      - CELERY_BROKER_URL=redis://redis:6379/1
+      - CELERY_RESULT_BACKEND=redis://redis:6379/2
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - .:/app
+    networks:
+      - backend_network
+    restart: unless-stopped
+
+  # Celery Worker
+  celery_worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: school_erp_celery_worker
+    command: celery -A app.celery_app worker --loglevel=info
+    environment:
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-school_erp}:${POSTGRES_PASSWORD:-school_erp_password}@postgres:5432/${POSTGRES_DB:-school_erp}
+      - REDIS_URL=redis://redis:6379/0
+      - SECRET_KEY=${SECRET_KEY:-your-super-secret-key-change-in-production}
+      - CELERY_BROKER_URL=redis://redis:6379/1
+      - CELERY_RESULT_BACKEND=redis://redis:6379/2
+    depends_on:
+      - backend
+      - redis
+    volumes:
+      - .:/app
+    networks:
+      - backend_network
+    restart: unless-stopped
+
+  # Celery Flower Monitor
+  flower:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: school_erp_flower
+    command: celery -A app.celery_app flower --port=5555
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379/1
+      - CELERY_RESULT_BACKEND=redis://redis:6379/2
+    ports:
+      - "5555:5555"
+    depends_on:
+      - celery_worker
+    networks:
+      - backend_network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  backend_network:
+    driver: bridge

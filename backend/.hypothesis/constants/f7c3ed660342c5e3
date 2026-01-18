@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\services\leave_request_service.py
+# hypothesis_version: 6.148.8
+
+['approved_by', 'approver', 'created_at', 'email', 'from_date', 'has_next', 'has_previous', 'id', 'items', 'page', 'page_size', 'profile_data', 'reason', 'requester', 'requester_id', 'requester_type', 'status', 'to_date', 'total_count', 'total_pages', 'updated_at']

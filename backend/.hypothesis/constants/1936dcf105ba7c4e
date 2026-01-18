@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\repositories\fee.py
+# hypothesis_version: 6.148.8
+
+[0.0, 100, '0.00', 'collected', 'count', 'fee_type_summary', 'pending', 'pending_count', 'status_counts', 'total_amount', 'total_collected', 'total_fees', 'total_paid', 'total_pending']

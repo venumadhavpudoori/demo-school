@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\models\teacher.py
+# hypothesis_version: 6.148.8
+
+['Attendance', 'CASCADE', 'Class', 'Subject', 'Timetable', 'User', 'active', 'class_teacher', 'dynamic', 'inactive', 'marked_by_user', 'on_leave', 'resigned', 'teacher', 'teachers', 'users.id']

@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\services\fee_service.py
+# hypothesis_version: 6.148.8
+
+[10000, '0.00', 'FEE_NOT_FOUND', 'Fee type is required', 'INVALID_FEE_DATA', 'INVALID_PAYMENT', 'academic_year', 'amount', 'due_date', 'end_date', 'fee_id', 'fee_type', 'first_name', 'has_next', 'has_previous', 'id', 'items', 'last_name', 'new_paid_amount', 'new_status', 'page', 'page_size', 'paid_amount', 'payment_amount', 'payment_date', 'payment_method', 'previous_paid', 'previous_status', 'remaining', 'remaining_balance', 'start_date', 'status', 'student_id', 'student_name', 'total_amount', 'total_count', 'total_pages', 'total_pending_amount', 'transaction_id']

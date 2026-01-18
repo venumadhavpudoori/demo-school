@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\services\audit_service.py
+# hypothesis_version: 6.148.8
+
+[',', 'AuditContext', 'F', 'client', 'current_user_id', 'id', 'ip_address', 'role', 'user', 'user-agent', 'user_agent', 'user_id', 'x-forwarded-for']

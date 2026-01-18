@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\repositories\student.py
+# hypothesis_version: 6.148.8
+
+[0.0, 0.5, 100, 'absent_days', 'amount', 'balance', 'class_id', 'due_date', 'exam_name', 'fee_type', 'first_name', 'grade', 'half_days', 'id', 'last_name', 'late_days', 'marks_obtained', 'max_marks', 'paid_amount', 'pending_count', 'percentage', 'present_days', 'recent_fees', 'remarks', 'section_id', 'status', 'subject_name', 'total_amount', 'total_days', 'total_paid']

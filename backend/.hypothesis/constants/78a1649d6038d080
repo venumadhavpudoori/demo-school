@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\models\fee.py
+# hypothesis_version: 6.148.8
+
+[100, '0.00', 'CASCADE', 'Student', 'fees', 'overdue', 'paid', 'partial', 'pending', 'students.id', 'waived']

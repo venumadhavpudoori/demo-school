@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\services\announcement_service.py
+# hypothesis_version: 6.148.8
+
+['author', 'content', 'created_at', 'created_by', 'email', 'has_next', 'has_previous', 'id', 'items', 'page', 'page_size', 'profile_data', 'target_audience', 'title', 'total_count', 'total_pages', 'updated_at']

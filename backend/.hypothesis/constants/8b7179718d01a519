@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\models\base.py
+# hypothesis_version: 6.148.8
+
+['CASCADE', 'tenants.id']

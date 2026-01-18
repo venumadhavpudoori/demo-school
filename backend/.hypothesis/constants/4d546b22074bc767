@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\models\timetable.py
+# hypothesis_version: 6.148.8
+
+['CASCADE', 'Class', 'SET NULL', 'Section', 'Section | None', 'Subject', 'Teacher', 'Teacher | None', 'classes.id', 'sections.id', 'subjects.id', 'teachers.id', 'timetable_entries', 'timetables']

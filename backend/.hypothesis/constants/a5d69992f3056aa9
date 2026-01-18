@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\repositories\leave_request.py
+# hypothesis_version: 6.148.8
+
+[100, 'requester_id', 'requester_type', 'status']

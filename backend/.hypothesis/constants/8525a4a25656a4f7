@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\config.py
+# hypothesis_version: 6.148.8
+
+[5555, '.env', 'HS256', 'School ERP', 'jwt-secret-change-me', 'localhost', 'utf-8']

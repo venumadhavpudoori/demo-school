@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\services\student_service.py
+# hypothesis_version: 6.148.8
+
+['DUPLICATE_EMAIL', 'STUDENT_NOT_FOUND', 'address', 'admission_date', 'admission_number', 'attendance', 'class_id', 'class_name', 'date_of_birth', 'email', 'fees', 'gender', 'grades', 'has_next', 'has_previous', 'id', 'is_active', 'items', 'page', 'page_size', 'profile_data', 'roll_number', 'section_id', 'section_name', 'status', 'student', 'total_count', 'total_pages', 'user']

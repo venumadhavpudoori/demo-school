@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\repositories\attendance.py
+# hypothesis_version: 6.148.8
+
+[0.0, 0.5, 100, 'absent_count', 'absent_days', 'class_id', 'date', 'excused_count', 'excused_days', 'first_name', 'half_day_count', 'half_days', 'last_name', 'late_count', 'late_days', 'present_count', 'present_days', 'records', 'remarks', 'status', 'student_id', 'student_name', 'tenant_id', 'total_days', 'total_marked', 'total_records', 'total_students']

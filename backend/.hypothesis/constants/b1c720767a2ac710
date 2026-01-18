@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\services\attendance_service.py
+# hypothesis_version: 6.148.8
+
+[0.0, 0.5, 100, 10000, 'ATTENDANCE_NOT_FOUND', 'DUPLICATE_ATTENDANCE', 'absent_days', 'class_id', 'class_name', 'class_summary', 'date', 'end_date', 'first_name', 'half_days', 'has_next', 'has_previous', 'id', 'items', 'last_name', 'late_days', 'marked_by', 'page', 'page_size', 'present_days', 'records', 'remarks', 'section_id', 'start_date', 'status', 'status_counts', 'student_id', 'student_name', 'student_summaries', 'total_count', 'total_days', 'total_marked', 'total_pages', 'total_students']

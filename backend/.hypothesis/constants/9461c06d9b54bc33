@@ -1,0 +1,4 @@
+# file: D:\eschool\backend\app\models\audit_log.py
+# hypothesis_version: 6.148.8
+
+[100, 'SET NULL', 'User', 'User | None', 'audit_logs', 'create', 'delete', 'joined', 'login', 'logout', 'password_change', 'permission_change', 'soft_delete', 'update', 'users.id']
